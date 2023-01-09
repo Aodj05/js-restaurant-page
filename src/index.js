@@ -1,1 +1,3 @@
-console.log("Hi");
+import loadSite from "./site";
+
+loadSite();
