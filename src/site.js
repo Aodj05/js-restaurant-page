@@ -1,5 +1,6 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 function makeHeader() {
     const header = document.createElement("header");
@@ -36,6 +37,19 @@ function makeNav() {
         loadMenu;
     });
 
+    const contactBtn = document.createElement("button");
+    contactBtn.classList.add("btn-nav");
+    contactBtn.textContent = "Contact";
+    contactBtn.addEventListener("click", (e) => {
+        if (e.target.classList.contains("active")) return;
+        setActiveBtn(contactBtn);
+        loadContact();
+    });
+
+    nav.appendChild(homeBtn);
+    nav.appendChild(menuBtn);
+    nav.appendChild(contactBtn);
+
     return nav;
 }
 
@@ -47,12 +61,26 @@ function setActiveBtn(button) {
             button.classList.remove("active");
         }
     });
+
+    button.classList.add("active");
+}
+
+function makeMain() {
+    const main = document.createElement("main");
+    main.classList.add("main");
+    main.setAttribute("id", "main");
+
+    return main;
 }
 
 function loadSite() {
 const content = document.getElementById("content");
 
 content.appendChild(makeHeader());
+content.appendChild(makeMain());
+
+setActiveBtn(document.querySelector(".btn-nav"));
+loadHome();
 }
 
 export default loadSite;
