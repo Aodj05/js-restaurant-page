@@ -20,7 +20,7 @@ function makeContact() {
 }
 
 function loadContact() {
-    const main = document.createElement('main');
+    const main = document.getElementById('main');
     main.textContent = '';
     main.appendChild(makeContact());
 }

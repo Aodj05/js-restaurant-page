@@ -34,7 +34,7 @@ function makeNav() {
     menuBtn.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
         setActiveBtn(menuBtn);
-        loadMenu;
+        loadMenu();
     });
 
     const contactBtn = document.createElement("button");
@@ -73,11 +73,37 @@ function makeMain() {
     return main;
 }
 
+function makeFooter() {
+    const footer = document.createElement("p");
+    footer.classList.add("footer");
+
+    const copyright = document.createElement("p");
+    copyright.textContent = "All Names and Characters Copyright © Nintendo";
+
+    const ninLink = document.createElement("a");
+    ninLink.href = "http://www.nintendo.com";
+
+    const copyright2 = document.createElement("p");
+    copyright2.textContent = "All Dish Names and Images Copyright © Gourmet Smash Bros";
+
+    const wixLink = document.createElement("a");
+    wixLink.href = "http://https://superpixeltea.wixsite.com/gourmetsmashultimate";
+
+    footer.appendChild(copyright);
+    footer.appendChild(ninLink);
+
+    footer.appendChild(copyright2);
+    footer.appendChild(wixLink);
+
+    return footer;
+}
+
 function loadSite() {
 const content = document.getElementById("content");
 
 content.appendChild(makeHeader());
 content.appendChild(makeMain());
+content.appendChild(makeFooter());
 
 setActiveBtn(document.querySelector(".btn-nav"));
 loadHome();

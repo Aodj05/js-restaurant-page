@@ -4,50 +4,57 @@ function makeMenu() {
 
     menu.appendChild(
         makeMenuItem(
-            "INKLING - Seafood Tempura Platter with Ink Dipping Sauces",
-            "Squid, Tempura shrimp, Colored ink sriracha mayo/wasabi mayo, Squid ink soy sauce"
+            "INKLING",
+            "Seafood Tempura Platter with Ink Dipping Sauces"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("JOKER - Coffee Curry Udon Soup",
-        "Udon, Curry, Coffee"
+        makeMenuItem(
+            "JOKER",
+            "Coffee Curry Udon Soup"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("SNAKE - Whiskey Baked Beans and Smoked Pork Ration",
-        "Whiskey, Beans, Pork Shoulder"
+        makeMenuItem(
+            "SNAKE",
+            "Whiskey Baked Beans and Smoked Pork Ration"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("LUIGI - Mushrooms & Asparagus Pesto Linguine",
-        "Assorted Mushroom, Asparagus, Pesto, Linguine Pasta"
+        makeMenuItem(
+            "LUIGI",
+            "Mushrooms & Asparagus Pesto Linguine"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("PALUTENA - Green Goddess Greek Veggie Burger",
-        "Ciabatta, Greek Veggie Patty, Green Goddess Sauce"
+        makeMenuItem(
+            "PALUTENA",
+            "Green Goddess Greek Veggie Burger"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("PAC-MAN - Fruit and Tapioca Pearl Jello Salad",
-        "Assorted Fruits, Gelatin, Tapioca"
+        makeMenuItem(
+            "PAC-MAN",
+            "Fruit and Tapioca Pearl Jello Salad"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("PEACH - Regal Rosewater Peach Layercake",
-        "Rosewater Cake, Peach Jam, Rosewater Cream Frosting"
+        makeMenuItem(
+            "PEACH",
+            "Regal Rosewater Peach Layercake"
         )
     );
 
     menu.appendChild(
-        makeMenuItem("WII FIT TRAINER - Health Nut Protein Bars",
-        "Peanut Butter, Honey, Protein Powder, Assorted Nuts and Seeds"
+        makeMenuItem(
+            "WII FIT TRAINER",
+            "Health Nut Protein Bars"
         )
     );
 
@@ -62,7 +69,7 @@ function makeMenuItem(name, desc) {
     dishName.textContent = name;
 
     const dishDesc = document.createElement("p");
-    disDesc.textContent = desc;
+    dishDesc.textContent = desc;
 
     const dishImg = document.createElement("img");
     dishImg.src = `img/dish/${name.toLowerCase()}.png`;
