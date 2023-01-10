@@ -14,49 +14,49 @@ function makeDish() {
     dish.appendChild(
         makeDishItem(
             "JOKER",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            "A  secret ingredient that sets this apart from typical Japanese curry: coffee! Curry, Soup, Udon"
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "SNAKE",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            "When he's not eating wild animals such as snakes, parrots, and tree frogs, Snake will eat whatever pre-prepared foods he's lucky enough to get a hold of. Whiskey, Baked beans, Pork."
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "LUIGI",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            "Luigi is leaner and greener than Mario, so let's go with a healthy dish. Mushroom, Asparagus, Pesto, Linguini"
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "PALUTENA",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            " In Kid Icarus Uprising, she's depicted as having quite a voracious appetite - she and Pit always seem to be thinking about food! Green Goddess Sauce, Greek Veggie Patty"
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "PAC-MAN",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            " He's as old school as old school gets! Try this vintage dish. Assorted Fruits, Gelatin, Topped with whipped cream."
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "PEACH",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            "A white, multi-tiered layercake is also perfect for a wedding – and numerous Mario games just so happen to involve Peach in a wedding gown. Rosewater cake, Peach Jam, whipped cream and fruit."
         )
     );
 
     dish.appendChild(
         makeDishItem(
             "WII FIT TRAINER",
-            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+            "A healthy snack for Wii Fit's training guru! Peanut Butter, Honey, Assorted seeds, Almonds"
         )
     );
 
