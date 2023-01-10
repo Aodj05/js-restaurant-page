@@ -30,7 +30,7 @@ function makeDishItem(name, desc) {
     dishItemImg.addEventListener("click", () => {
         loadMenu();
     });
-    dishItemImg.addEventListener("touch", () => {
+    dishItemImg.addEventListener("touchstart", () => {
         loadMenu();
     });
 
