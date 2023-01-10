@@ -11,6 +11,48 @@ function makeDish() {
         )
     );
 
+    dish.appendChild(
+        makeDishItem(
+            "JOKER",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
+    dish.appendChild(
+        makeDishItem(
+            "SNAKE",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
+    dish.appendChild(
+        makeDishItem(
+            "LUIGI",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
+    dish.appendChild(
+        makeDishItem(
+            "PALUTENA",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
+    dish.appendChild(
+        makeDishItem(
+            "PAC-MAN",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
+    dish.appendChild(
+        makeDishItem(
+            "WII FIT TRAINER",
+            "Frying up squid as homage to the Inkling may seem a tad barbaric. Tempura Squid and Shrimp, Sriracha/Wasabi dipping sauces, Squid ink soy sauce"
+        )
+    );
+
     return dish;
 }
 
