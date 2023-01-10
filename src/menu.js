@@ -72,7 +72,7 @@ function makeMenuItem(name, desc) {
     dishDesc.textContent = desc;
 
     const dishImg = document.createElement("img");
-    dishImg.src = `img/dish/${name.toLowerCase()}.png`;
+    dishImg.src = `img/dish/${name}.png`;
     dishImg.alt = `${name}`;
 
     menuItem.appendChild(dishImg);
