@@ -1,3 +1,5 @@
+import loadDish from "./dish";
+
 function makeMenu() {
     const menu = document.createElement("div");
     menu.classList.add("menu");
@@ -74,6 +76,9 @@ function makeMenuItem(name, desc) {
     const dishImg = document.createElement("img");
     dishImg.src = `img/dish/${name}.png`;
     dishImg.alt = `${name}`;
+    dishImg.addEventListener("click", () => {
+        loadDish();
+    });
 
     menuItem.appendChild(dishImg);
     menuItem.appendChild(dishName);
