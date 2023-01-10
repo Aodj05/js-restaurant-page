@@ -30,6 +30,9 @@ function makeDishItem(name, desc) {
     dishItemImg.addEventListener("click", () => {
         loadMenu();
     });
+    dishItemImg.addEventListener("touch", () => {
+        loadMenu();
+    });
 
     dishItem.appendChild(dishItemImg);
     dishItem.appendChild(dishItemName);
