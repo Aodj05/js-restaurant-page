@@ -77,7 +77,7 @@ function makeMenuItem(name, desc) {
     dishImg.src = `img/dish/${name}.png`;
     dishImg.alt = `${name}`;
     dishImg.addEventListener("click", () => {
-        loadDish();
+        loadDish(name);
     });
 
     menuItem.appendChild(dishImg);
